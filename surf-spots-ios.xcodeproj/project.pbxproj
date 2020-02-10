@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FE314E5F23F10A0D00A6A560 /* SpotsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE314E5E23F10A0D00A6A560 /* SpotsList.swift */; };
+		FE314E6223F10DBD00A6A560 /* Spot.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE314E6123F10DBD00A6A560 /* Spot.swift */; };
 		FEB9D38023D3039C00B7F0E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB9D37F23D3039C00B7F0E6 /* AppDelegate.swift */; };
 		FEB9D38223D3039C00B7F0E6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB9D38123D3039C00B7F0E6 /* SceneDelegate.swift */; };
 		FEB9D38423D3039C00B7F0E6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB9D38323D3039C00B7F0E6 /* ContentView.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FE314E5E23F10A0D00A6A560 /* SpotsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotsList.swift; sourceTree = "<group>"; };
+		FE314E6123F10DBD00A6A560 /* Spot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spot.swift; sourceTree = "<group>"; };
 		FEB9D37C23D3039C00B7F0E6 /* surf-spots-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "surf-spots-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEB9D37F23D3039C00B7F0E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FEB9D38123D3039C00B7F0E6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +41,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FE314E6023F10DA500A6A560 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				FE314E6123F10DBD00A6A560 /* Spot.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
 		FEB9D37323D3039B00B7F0E6 = {
 			isa = PBXGroup;
 			children = (
@@ -56,9 +68,11 @@
 		FEB9D37E23D3039C00B7F0E6 /* surf-spots-ios */ = {
 			isa = PBXGroup;
 			children = (
+				FE314E6023F10DA500A6A560 /* models */,
 				FEB9D37F23D3039C00B7F0E6 /* AppDelegate.swift */,
 				FEB9D38123D3039C00B7F0E6 /* SceneDelegate.swift */,
 				FEB9D38323D3039C00B7F0E6 /* ContentView.swift */,
+				FE314E5E23F10A0D00A6A560 /* SpotsList.swift */,
 				FEB9D38523D3039F00B7F0E6 /* Assets.xcassets */,
 				FEB9D38A23D3039F00B7F0E6 /* LaunchScreen.storyboard */,
 				FEB9D38D23D3039F00B7F0E6 /* Info.plist */,
@@ -148,7 +162,9 @@
 			files = (
 				FEB9D38023D3039C00B7F0E6 /* AppDelegate.swift in Sources */,
 				FEB9D38223D3039C00B7F0E6 /* SceneDelegate.swift in Sources */,
+				FE314E6223F10DBD00A6A560 /* Spot.swift in Sources */,
 				FEB9D38423D3039C00B7F0E6 /* ContentView.swift in Sources */,
+				FE314E5F23F10A0D00A6A560 /* SpotsList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
