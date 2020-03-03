@@ -1,9 +1,14 @@
 import SwiftUI
 
 struct SpotsList: View {
+    var spots: Spots
+    // swift structs give you an init as a var. auto-init thing.
+    
     var body: some View {
         VStack() {
-            Text("hi there")
+            ForEach(spots) { spot in
+                Text(spot.name)
+            }
         }
     }
 }
