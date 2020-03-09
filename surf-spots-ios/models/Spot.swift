@@ -4,7 +4,7 @@ struct Spot: Codable, Identifiable {
     var desctription: String
 }
 
-struct Data: Codable {
+struct Results: Codable {
     var data: Spots
 }
 
