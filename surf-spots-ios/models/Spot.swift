@@ -4,8 +4,4 @@ struct Spot: Codable, Identifiable {
     var desctription: String
 }
 
-struct Results: Codable {
-    var data: Spots
-}
-
 typealias Spots = [Spot]
